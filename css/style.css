@@ -1,0 +1,29 @@
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	color: #28f;
+	font-family: Comic Sans MS;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+}
+
+.catBox {
+	width: 45%;
+	height: 45%;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	overflow: hidden;
+}
+
+.cat {
+	height: 90%;
+}
