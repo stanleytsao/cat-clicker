@@ -14,7 +14,7 @@
 }
 
 .cat-selector {
-	width: 35%;
+	width: 45%;
 	display: flex;
 	flex-direction: column;
 }
@@ -32,7 +32,7 @@
 	text-shadow: 1px 1px 3px #39f;
 }
 
-.icon {
+.selection img {
 	height: 100%;
 }
 
@@ -41,20 +41,32 @@
 }
 
 .content {
-	width: 60%;
+	width: 50%;
 }
 
 .catBox {
-	height: 40%;
+	height: 50%;
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: center;
 	overflow: hidden;
 	padding: 2% 0;
-	cursor: crosshair;
+	cursor: cell;
+	font-size: 2em;
+	font-weight: bold;
+	color: #f20;
 }
 
 .cat {
-	height: 90%;
+	height: 85%;
 	padding: 2% 0;
+}
+
+.reset {
+	width: 200px;
+    height: 80px;
+    margin: 25px;
+    border-radius: 10em;
+    line-height: 70px;
+    cursor: pointer;
 }
