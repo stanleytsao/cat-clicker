@@ -1,4 +1,14 @@
+div {
+	border: 1px solid #000;
+}
+
 .container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/*Old App CSS*/
+/*.container {
 	max-width: 1000px;
 	margin: 0 auto;
 	color: #28f;
@@ -69,4 +79,4 @@
     border-radius: 10em;
     line-height: 70px;
     cursor: pointer;
-}
+}*/
