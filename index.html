@@ -1,25 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Cat Clicker</title>
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
 </head>
 <body>
-	<div class="container">
-		<div class="title">
-			<h1>Cat-Clicker Premium Pro</h1>
-		</div>
-		<div class="sideBar">
-			<h2>Choose your favoite cat!</h2>
-			<ul class="list"></ul>
-		</div>
-		<div class="main">
-			<h2>Click on %Name%!</h2>
-			<div class="cat"></div>
-		</div>
-		<!-- <div class="reset">Reset Counter</div> -->
-	</div>
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+    <ul class="list"></ul>
+    <div class="cat">
+
+        <h2 class="name" data-bind="text: name"></h2>
+        <div class="count" data-bind="text: clickCount"></div>
+        <img class="img" src="" alt="cat image" data-bind="click: incrementCounter, attr: {src: imgSrc}">
+
+    </div>
+    <script src="js/knockout-3.4.1.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
